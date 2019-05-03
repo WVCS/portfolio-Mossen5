@@ -1,0 +1,43 @@
+html {
+  font-family:lucida Console;
+}
+
+.box1{
+  width: 500px;
+  border: 1px solid black;
+  outline-style:outset;
+  outline-color:blue;
+  outline-width:10px;
+  padding: 10px;
+  margin: 10px;
+} 
+
+.box1align{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.box2 {
+  width:200px;
+  border:1px solid black;
+  outline-style:outset;
+  outline-color:blue;
+  outline-width:5px;
+  padding:10px;
+  margin-left:180px;
+  margin-top:30px;
+  text-align:center;
+}
+.box3{
+  width:600px;
+  border:1px solid black;
+  outline-style:outset;
+  outline-color:blue;
+  outline-width:3px;
+  height:auto;
+  padding-top:5px;
+  padding-left:10px;
+  padding-right:10px;
+  margin-top:15px;
+}
