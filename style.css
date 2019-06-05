@@ -1,35 +1,79 @@
 html {
-  font-family:lucida Console;
+  font-family:Verdana, Geneva, sans-serif;
 }
 
-.box1{
+body{
+  background-color:#F7F052;
+}
+
+ul.navBar {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  top:0;
+  position:fixed;
+  overflow:hidden;
+  width:100%;
+  background-color:#38726C;
+  display:flex;
+  left:0;
+}
+
+li.navBar {
+  display: inline;
+}
+
+li a {
+  display:block;
+  text-decoration: none;
+  padding:12px 15px;
+  color:#F7F052;
+}
+
+li a:hover {
+  background-color:#D34E24;
+}
+.titleBox{
   width: 500px;
   border: 1px solid black;
   outline-style:outset;
-  outline-color:blue;
+  outline-color:#38726C;
   outline-width:10px;
   padding: 10px;
   margin: 10px;
+  margin-top:3%;
+  
 } 
 
-.box1align{
+.boxAlign{
   width: 100%;
   height: auto;
   display: flex;
   justify-content: center;
 }
-.box2 {
+
+.layer1Container{
+  width:1500px;
+  margin:auto;
+  border:1px solid black;
+  
+}
+.layer1Clear{
+  clear:both;
+}
+.aboutMeTitleBox {
   width:200px;
   border:1px solid black;
   outline-style:outset;
-  outline-color:blue;
+  outline-color:#38726C;
   outline-width:5px;
   padding:10px;
-  margin-left:180px;
   margin-top:30px;
   text-align:center;
+  
 }
-.box3{
+
+.aboutMeBox{
   width:600px;
   border:1px solid black;
   outline-style:outset;
@@ -40,4 +84,31 @@ html {
   padding-left:10px;
   padding-right:10px;
   margin-top:15px;
+  text-align:center;
+  
+}
+
+.box4{
+  width:500px;
+  length:auto;
+  border:1px solid black;
+  margin-top:30px;
+  outline-style:outset;
+  outline-color:blue;
+  outline-width:3px;
+}
+
+.box5{
+  width:200px;
+  length:auto;
+  border:1px solid black;
+  margin-top:30px;
+  outline-sytle:outset;
+  outline-color:blue;
+  outline-width:3px;
+}
+.box6{
+  width:600px;
+  length:auto;
+  border:1px solid black;
 }
