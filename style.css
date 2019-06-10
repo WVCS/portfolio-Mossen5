@@ -1,5 +1,6 @@
 html {
   font-family:Verdana, Geneva, sans-serif;
+  scroll-behavior: smooth;
 }
 
 body{
@@ -51,13 +52,7 @@ li a:hover {
   display: flex;
   justify-content: center;
 }
-
-.layer1Container{
-  width:1500px;
-  margin:auto;
-  border:1px solid black;
-  
-}
+ 
 .layer1Clear{
   clear:both;
 }
@@ -111,4 +106,11 @@ li a:hover {
   width:600px;
   length:auto;
   border:1px solid black;
+}
+
+.sampleWorkBox{
+  width:600px;
+  length:auto;
+  border:1px solid black;
+  margin:30px;
 }
